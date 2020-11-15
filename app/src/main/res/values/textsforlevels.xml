@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="lvl1test0">Ноль</string>
+    <string name="lvl1test1">Один</string>
+    <string name="lvl1test2">Два</string>
+    <string name="lvl1test3">Три</string>
+    <string name="lvl1test4">Четыре</string>
+    <string name="lvl1test5">Пять</string>
+    <string name="lvl1test6">Шесть</string>
+    <string name="lvl1test7">Семь</string>
+    <string name="lvl1test8">Восемь</string>
+    <string name="lvl1test9">Девять</string>
+
+    <string name="lvl2test1">I</string>
+    <string name="lvl2test2">II</string>
+    <string name="lvl2test3">III</string>
+    <string name="lvl2test4">IV</string>
+    <string name="lvl2test5">V</string>
+    <string name="lvl2test6">VI</string>
+    <string name="lvl2test7">VII</string>
+    <string name="lvl2test8">VIII</string>
+    <string name="lvl2test9">IX</string>
+    <string name="lvl2test10">X</string>
+
+    <string name="lvl3test1">Кролик</string>
+    <string name="lvl3test2">Кот</string>
+    <string name="lvl3test3">Коала</string>
+    <string name="lvl3test4">Жеребёнок</string>
+    <string name="lvl3test5">Овчарка</string>
+    <string name="lvl3test6">Мопс</string>
+    <string name="lvl3test7">Тигр</string>
+    <string name="lvl3test8">Конь</string>
+    <string name="lvl3test9">Жираф</string>
+    <string name="lvl3test10">Медведь</string>
+
+    <string name="lvl4test1">Яблоко</string>
+    <string name="lvl4test2">Гайка</string>
+    <string name="lvl4test3">Апельсин</string>
+    <string name="lvl4test4">Мяч</string>
+    <string name="lvl4test5">Арбуз</string>
+    <string name="lvl4test6">Кирпич</string>
+    <string name="lvl4test7">Вишня</string>
+    <string name="lvl4test8">Гвоздь</string>
+    <string name="lvl4test9">Тыква</string>
+    <string name="lvl4test10">Коробка</string>
+    <string name="lvl4test11">Огурец</string>
+    <string name="lvl4test12">Книга</string>
+    <string name="lvl4test13">Лук</string>
+    <string name="lvl4test14">Веревка</string>
+    <string name="lvl4test15">Гранат</string>
+    <string name="lvl4test16">Кружка</string>
+    <string name="lvl4test17">Гриб</string>
+    <string name="lvl4test18">Тарелка</string>
+    <string name="lvl4test19">Помидор</string>
+    <string name="lvl4test20">Вилка</string>
+
+
+
+</resources>
