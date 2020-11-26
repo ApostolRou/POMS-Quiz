@@ -21,6 +21,8 @@ import android.widget.TextView;
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.bumptech.glide.Glide;
+
 import java.util.Random;
 
 public class Level2 extends AppCompatActivity {
@@ -187,7 +189,7 @@ public class Level2 extends AppCompatActivity {
         //анимация конец
 
         numLeft = random.nextInt(10);
-        img_left.setImageResource(array.images2[numLeft]);
+        Glide.with(this).load(array.images2[numLeft]).into(img_left);
         text_left.setText(array.texts2[numLeft]);
 
         numRight = random.nextInt(10);
@@ -196,7 +198,7 @@ public class Level2 extends AppCompatActivity {
             numRight = random.nextInt(10);
         }
 
-        img_right.setImageResource(array.images2[numRight]);
+        Glide.with(this).load(array.images2[numRight]).into(img_right);
         text_right.setText(array.texts2[numRight]);
 
         //нажатие на левую картинку
@@ -266,7 +268,7 @@ public class Level2 extends AppCompatActivity {
                         dialogEnd.show();
                     }else{
                         numLeft = random.nextInt(10);
-                        img_left.setImageResource(array.images2[numLeft]);
+                        Glide.with(getApplicationContext()).load(array.images2[numLeft]).into(img_left);
                         img_left.startAnimation(a);
                         text_left.setText(array.texts2[numLeft]);
 
@@ -276,7 +278,8 @@ public class Level2 extends AppCompatActivity {
                             numRight = random.nextInt(10);
                         }
 
-                        img_right.setImageResource(array.images2[numRight]);
+                        Glide.with(getApplicationContext()).load(array.images2[numRight]).into(img_right);
+
                         img_right.startAnimation(a);
                         text_right.setText(array.texts2[numRight]);
                         img_right.setEnabled(true);
@@ -353,7 +356,8 @@ public class Level2 extends AppCompatActivity {
                         dialogEnd.show();
                     }else{
                         numRight = random.nextInt(10);
-                        img_right.setImageResource(array.images2[numRight]);
+                        Glide.with(getApplicationContext()).load(array.images2[numRight]).into(img_right);
+
                         img_right.startAnimation(a);
                         text_right.setText(array.texts2[numRight]);
 
@@ -363,7 +367,8 @@ public class Level2 extends AppCompatActivity {
                             numLeft = random.nextInt(10);
                         }
 
-                        img_left.setImageResource(array.images2[numLeft]);
+                        Glide.with(getApplicationContext()).load(array.images2[numLeft]).into(img_left);
+
                         img_left.startAnimation(a);
                         text_left.setText(array.texts2[numLeft]);
                         img_left.setEnabled(true);
